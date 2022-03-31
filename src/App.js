@@ -5,7 +5,7 @@ import RatingScale from './components/RatingScale';
 
 function App() {
   const [isHidden, setHidden] = useState(false);
-  const [ratingCount, setRatingCount] = useState(5);
+  const [ratingCount] = useState(5);
   const [selectedRating, setSelectedRating] = useState(0);
 
   const selectRating = (rating) => {
