@@ -15,7 +15,7 @@ function App() {
 
   return (
     <div className="app">
-      <form className={isHidden ? 'container' : 'container'}>
+      <main className={isHidden ? 'container' : 'container'}>
         <div className={isHidden ? 'state-rating hidden' : 'state-rating'}>
           <div className="star-icon">
             <FaStar />
@@ -60,7 +60,7 @@ function App() {
             Back
           </button>
         </div>
-      </form>
+      </main>
     </div>
   );
 }
