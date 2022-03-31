@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 import Rating from './Rating';
 
 const RatingScale = ({ ratingCount, selectRating }) => {
